@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <% date = Time.local %>
+    <% day, month, year = Time.now.day, Time.now.month, Time.now.year %>
     <%= "The current date is" + #{date} %>
   </body>
 </html>
