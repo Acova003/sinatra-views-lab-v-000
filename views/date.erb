@@ -2,7 +2,8 @@
 <html>
   <body>
     <h1>Today</h1>
-    <% day = Time.now %>
+    <% day = Date.today.strftime("%A") %>
+    <% month_num = Date.today.strftime("%A")
     <%= "The current date is #{date}" %>
   </body>
 </html>
